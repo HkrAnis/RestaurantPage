@@ -1,0 +1,23 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore webpack generated files
+*.js.map
+*.hot-update.js
+*.hot-update.json
+*.hot-update.js.map
+
+# Ignore environment variables files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore logs and other generated files
+logs/
+*.log
